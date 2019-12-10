@@ -17,7 +17,7 @@ CREATE TABLE orders (
 	product_id			varchar(40)		,
 	category			varchar(40)		,
 	subcategory			varchar(40)		,
-	product_name		varchar(40)		,	
+	product_name		varchar(80)		,	
 	sales				numeric		,
 	quantity			integer		,
 	discount			numeric		,
@@ -31,7 +31,7 @@ order_id       		varchar(40)
 );
 
 CREATE TABLE people (
-person  			varchar(10),
+person  			varchar(20),
 region       		varchar(25)
 );
 
